@@ -3,25 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="body">
     <header>
-      <a href="#WebStudio">WebStudio</a>
+      <span class="company-name">Web</span
+      ><a class="link" href="#WebStudio">Studio</a>
       <nav>
-        <ul>
-          <li><a href="#Studio">Studio</a></li>
-          <li><a href="Portfolio">Portfolio</a></li>
-          <li><a href="Contacts">Contacts</a></li>
+        <ul class="navigation-list unstyled-list">
+          <li><a class="link" href="#Studio">Studio</a></li>
+          <li>
+            <a class="link" href="#Portfolio" id="portfolio">Portfolio</a>
+          </li>
+          <li><a class="link" href="#Contacts">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+12127724150">+12127724150</a></li>
+      <ul class="navigation-list unstyled-list">
+        <li>
+          <a
+            class="contact-details"
+            class="link"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact-details" class="link" href="tel:+12127724150"
+            >+12127724150</a
+          >
+        </li>
       </ul>
     </header>
     <main>
       <section>
-        <ul>
+        <ul class="navigation-list unstyled-list">
           <li>
             <button type="button">All</button>
             <button type="button">Web-sites</button>
@@ -32,7 +53,7 @@
         </ul>
       </section>
       <section>
-        <ul>
+        <ul class="navigation-list unstyled-list">
           <li>
             <img src="images/Technoduck.jpg" alt="Technoduck" />
             <h5>Technoduck</h5>
@@ -87,12 +108,21 @@
         </ul>
       </section>
       <footer>
-        <img /><a href="#WebStudio">WebStudio</a>
+        <img /><span class="company-name">Web</span
+        ><a class="link" href="#WebStudio">Studio</a>
         <address>
-          <ul>
-            <li><a href="">695 Park Ave, NY 10065,USA</a></li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+12127724150">+1 212-772-4150</a></li>
+          <ul class="navigation-list unstyled-list">
+            <li>
+              <a class="footer-contact" class="link" href=""
+                >695 Park Ave, NY 10065,USA</a
+              >
+            </li>
+            <li>
+              <a class="link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li><a class="link" href="tel:+12127724150">+1 212-772-4150</a></li>
           </ul>
         </address>
       </footer>

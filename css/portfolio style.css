@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto";
+  color: #212121;
+}
+.unstyled-list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #212121;
+}
+#portfolio {
+  color: #2196f3;
+}
+.company-name {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.contact-details {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+.footer-contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+address {
+  background: #2f303a;
+}
+button {
+  cursor: pointer;
+}
