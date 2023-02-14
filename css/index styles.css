@@ -14,8 +14,7 @@ body {
 .unstyled-list {
   list-style: none;
 }
-.link:hover,
-.link:active,
+
 .link:focus {
   text-decoration: none;
   color: #212121;
@@ -26,8 +25,7 @@ body {
   border-radius: 4px;
   box-sizing: border-box;
 }
-.first-section {
-}
+
 .title-first-section {
   font-weight: 900;
   font-size: 44px;
