@@ -5,7 +5,9 @@ body {
 .unstyled-list {
   list-style: none;
 }
-
+.link:hover {
+  color: #212121;
+}
 .link {
   text-decoration: none;
   color: #212121;
@@ -26,6 +28,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 h5 {
   font-weight: 700;
@@ -44,10 +47,15 @@ h6 {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
 }
-address {
+footer {
   background: #2f303a;
 }
 button {
   cursor: pointer;
+}
+.company-name-studio {
+  color: #ffffff;
 }
