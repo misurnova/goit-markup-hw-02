@@ -44,7 +44,7 @@ h6 {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
 }
@@ -57,11 +57,28 @@ button {
   background-color: #f5f4fa;
   border-radius: 4px;
   padding: 6px 22px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 button:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
-.company-name-studio {
+.company-name-studio-footer {
   color: #ffffff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.company-name-studio-header {
+  color: #000000;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
