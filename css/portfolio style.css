@@ -6,15 +6,13 @@ body {
   list-style: none;
 }
 .link:hover {
-  color: #212121;
+  color: #2196f3;
 }
 .link {
   text-decoration: none;
   color: #212121;
 }
-#portfolio {
-  color: #2196f3;
-}
+
 .company-name {
   color: #2196f3;
   font-family: "Raleway";
@@ -55,6 +53,14 @@ footer {
 }
 button {
   cursor: pointer;
+  border: none;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .company-name-studio {
   color: #ffffff;
